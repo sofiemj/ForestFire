@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
-        app:cardBackgroundColor="#DEFFFFFF">
+        android:background="#DEFFFFFF">
 
         <Button
             android:id="@+id/tilbake"
@@ -22,7 +22,7 @@
             android:layout_marginTop="200dp"
             android:background="@drawable/roundedbtn"
             android:text="@string/tilbake"
-            android:textColor="@color/quantum_grey"/>
+            android:textColor="@color/DingGrey"/>
 
         <!--søkeboks -->
         <androidx.cardview.widget.CardView
@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clickable="true"
-                android:focusable="true" />
+                android:focusable="true"/>
         </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>

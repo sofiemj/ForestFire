@@ -11,6 +11,7 @@
         android:id="@+id/leggTil"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:cardElevation="5dp"
         android:visibility="gone"
         app:cardBackgroundColor="#DEFFFFFF">
 
